@@ -1,0 +1,15 @@
+.TodoSearch{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 35px;
+    border: none;
+    background-color: lightblue;
+    outline: none;
+    border-bottom: 1px solid rgb(50, 50, 211);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 24px;
+    font-family: 'Amatic SC', cursive;  
+}

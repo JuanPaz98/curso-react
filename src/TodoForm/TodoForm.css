@@ -1,0 +1,50 @@
+.form-container{
+    display: grid;
+    width: 300px;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+}
+.form-container label{
+    font-size: 34px;
+    margin-bottom: 10px;;
+    color: black;
+    text-align: center;
+}
+.form-container .textarea-form{
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+    border: 1px solid black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    outline: none;
+    text-align: center;
+}
+.form-container .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 35px;
+    margin-top: 10px;
+    column-gap: 3px;
+}
+.form-container .buttons .btn-cancelar{
+    border-bottom-left-radius: 10px;
+    background-color: lightblue;
+    cursor: pointer;
+    border: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+.form-container .buttons .btn-crear{
+    border-bottom-right-radius: 10px;
+    background-color: lightblue;
+    cursor: pointer;
+    border: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}

@@ -1,0 +1,10 @@
+.TodoList{
+    width: 100%;
+}
+.TodoList ul{    
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row-gap: 10px;
+}

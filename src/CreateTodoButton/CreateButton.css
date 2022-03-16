@@ -1,0 +1,17 @@
+#toggle{
+    display: none;
+}
+
+.button{
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+.button:active{
+    transform: rotate(224deg);
+    transition: 0.5s transform;
+}
